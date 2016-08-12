@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="windows-1251"?>
-<!-- edited with XMLSpy v2012 sp1 (http://www.altova.com) by user (CJSC “ZOLOTAYA KORONA”) -->
 <definitions xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
              xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/"
              xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
