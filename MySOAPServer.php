@@ -7,7 +7,8 @@ function MyOperation($someone) {
 
 ini_set("soap.wsdl_cache_enabled", "0");
 ini_set('soap.wsdl_cache_ttl',0);
-$server = new SoapServer("http://10.10.12.30//result/My.wsdl",
+
+$server = new SoapServer("http://10.10.12.30/result/SOAP_samples/My.wsdl",
     array('soap_version' => SOAP_1_2));
 $server->addFunction("MyOperation");
 $server->handle();

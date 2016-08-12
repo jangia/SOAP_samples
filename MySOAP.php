@@ -8,7 +8,7 @@
 /*echo file_get_contents("http://localhost:8080/result/My.wsdl");
 die()*/;
 
-$url = 'http://10.10.12.30//result/My.wsdl';
+$url = 'http://10.10.12.30/result/SOAP_samples/My.wsdl';
 $request_data="jan";
 $client = new SoapClient($url,array('soap_version' => SOAP_1_2,'trace' => 1,'uri' => 'urn:mytargetns' ));
 

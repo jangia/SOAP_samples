@@ -26,7 +26,7 @@
     </binding>
     <service name="My_Service">
         <port name="My_SoapPort" binding="ns:My_SoapBinding">
-            <soap:address location="http://10.10.12.30//result/MySOAPServer.php"/>
+            <soap:address location="http://10.10.12.30/result/SOAP_samples/MySOAPServer.php"/>
         </port>
     </service>
 </definitions>
